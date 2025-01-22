@@ -9,8 +9,14 @@ export const Cart = () => {
   const router = useRouter();
   const { items, updateQuantity, removeFromCart, totalPrice } = useCartStore();
 
-  const [addedProduct, setAddedProduct] = useState(items);
-  const [isLoading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+  }, []);
 
   if (items?.length === 0) {
     return (
@@ -24,6 +30,27 @@ export const Cart = () => {
         >
           Continue Shopping
         </Link>
+      </div>
+    );
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-12 w-12 animate-spin"
+        >
+          <path
+            d="M12 2V6M12 18V22M6 12H2M22 12H18M19.0784 19.0784L16.25 16.25M19.0784 4.99994L16.25 7.82837M4.92157 19.0784L7.75 16.25M4.92157 4.99994L7.75 7.82837"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     );
   }
