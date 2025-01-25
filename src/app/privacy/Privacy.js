@@ -2,7 +2,7 @@ import React from "react";
 
 function Privacy() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12">
+    <div className="min-h-screen bg-gray-50 py-12 md:mx-0 mx-4">
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8 space-y-8">
         {/* Title Section */}
         <h1 className="text-4xl font-bold text-center text-gray-900">
@@ -12,10 +12,10 @@ function Privacy() {
         {/* Privacy Policy Content */}
         <section>
           <p className="text-gray-700 leading-relaxed">
-            At <strong>[Supplement Site Name]</strong>, we are committed to
-            protecting your privacy. This Privacy Policy outlines how we
-            collect, use, and protect your personal information when you visit
-            our website and purchase products from us.
+            At <strong>Rawrage</strong>, we are committed to protecting your
+            privacy. This Privacy Policy outlines how we collect, use, and
+            protect your personal information when you visit our website and
+            purchase products from us.
           </p>
         </section>
 

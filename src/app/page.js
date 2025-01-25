@@ -23,10 +23,6 @@ export default function Home() {
       src: heroImageThree,
       alt: "Slide 3",
     },
-    {
-      src: heroImageFour,
-      alt: "Slide 4",
-    },
   ];
 
   return (
@@ -40,12 +36,12 @@ export default function Home() {
           </h1>
           <p className="md:text-lg text-base text-gray-600">
             Discover high-quality steroids and Specialized Medical Risk
-            Assessments (SMRAs) that empower you to enhance your fitness,
+            Assessments (SARMs) that empower you to enhance your fitness,
             performance, and overall well-being. Start your journey towards a
             healthier, stronger you today
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products?.slice(0, 4)?.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

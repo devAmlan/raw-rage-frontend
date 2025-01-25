@@ -1,7 +1,7 @@
 "use client";
 import { useParams, useRouter } from "next/navigation";
 import { products } from "@/app/data/products";
-import { ShoppingCart, Check } from "lucide-react";
+import { ShoppingCart, Check, AlertCircleIcon } from "lucide-react";
 import { useCartStore } from "@/app/store/useCart";
 import ImageSlider from "@/app/components/ImageSlider";
 
@@ -44,9 +44,9 @@ export const ProductDetails = () => {
               <h2 className="mt-2 md:text-5xl text-3xl font-bold text-gray-900">
                 {product.name}
               </h2>
-              <p className="mt-4 md:text-3xl text-2xl text-gray-900 font-bold">
+              {/* <p className="mt-4 md:text-3xl text-2xl text-gray-900 font-bold">
                 ₹{product.price.toFixed(2)}
-              </p>
+              </p> */}
               <p className="mt-4 text-gray-600 text-lg leading-relaxed">
                 {product.description}
               </p>
@@ -64,14 +64,15 @@ export const ProductDetails = () => {
               </div> */}
               <div className="mt-8">
                 <button
-                  onClick={() => {
-                    addToCart(product);
-                    router.push("/cart");
-                  }}
-                  className="flex items-center justify-center space-x-2 w-full bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors"
+                  // onClick={() => {
+                  //   addToCart(product);
+                  //   router.push("/cart");
+                  // }}
+                  // className="flex items-center justify-center space-x-2 w-full bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors"
+                  className="flex items-center justify-center space-x-2 w-full bg-gray-300 text-white px-6 py-3 rounded-md transition-colors"
                 >
                   <ShoppingCart className="h-5 w-5" />
-                  <span>Add to Cart</span>
+                  <span>Out of Stock</span>
                 </button>
               </div>
             </div>
@@ -83,28 +84,30 @@ export const ProductDetails = () => {
               nature compared to other steroids. It has several potential
               benefits, which include:
             </p> */}
-            <div className="p-4">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Dosing Information
-              </h2>
+            {product?.dosing && (
+              <div className="p-4">
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                  Dosing Information
+                </h2>
 
-              <ul className="list-disc list-inside space-y-2">
-                {product?.dosing?.map((dose, index) => (
-                  <li key={index}>
+                <ul className="list-disc list-inside space-y-2">
+                  {product?.dosing?.map((dose, index) => (
+                    <li key={index}>
+                      <span className="font-semibold text-gray-700">
+                        {dose?.label}
+                      </span>
+                      <span className="text-gray-600">{dose.description}</span>
+                    </li>
+                  ))}
+                  <li>
                     <span className="font-semibold text-gray-700">
-                      {dose?.label}
+                      PCT-Matrix:
                     </span>
-                    <span className="text-gray-600">{dose.description}</span>
+                    <span className="text-gray-600"> 2 tablets every day</span>
                   </li>
-                ))}
-                <li>
-                  <span className="font-semibold text-gray-700">
-                    PCT-Matrix:
-                  </span>
-                  <span className="text-gray-600"> 2 tablets every day</span>
-                </li>
-              </ul>
-            </div>
+                </ul>
+              </div>
+            )}
 
             {product?.about &&
               Object.entries(product?.about)?.map(
@@ -141,6 +144,38 @@ export const ProductDetails = () => {
                   </div>
                 )
               )}
+
+            {product?.items && (
+              <ul className="list-disc list-inside">
+                {product?.items?.map((item, index) => (
+                  <li className="flex flex-col mb-5" key={index}>
+                    <div>
+                      <span className="font-semibold text-gray-700">
+                        {item?.name}:{" "}
+                      </span>
+                      <span className="text-gray-600 text-base">
+                        {item?.benefits}
+                      </span>
+                    </div>
+                    <p className="mt-1 font-semibold">Uses: {item?.uses}</p>
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            {product?.disclaimer && (
+              <p className="text-gray-600 py-4 md:text-lg test-sm">
+                {product?.disclaimer}
+              </p>
+            )}
+
+            {product?.userGuide && (
+              <p className="text-gray-600 py-4 md:text-lg test-sm">
+                {product?.userGuide}
+              </p>
+            )}
+
+            {product?.completeUserGuide}
           </div>
         </div>
       </div>
