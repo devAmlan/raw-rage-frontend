@@ -23,6 +23,7 @@ import { ShoppingCart, Menu } from "lucide-react";
 import { useCartStore } from "@/app/store/useCart";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import logo from "../../../public/assets/logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -98,7 +99,11 @@ const Navbar = () => {
             className="text-xl font-bold cursor-pointer flex justify-center items-center"
             onClick={() => router.push("/")}
           >
-            Rawrage
+            <img
+              src={"https://i.postimg.cc/BZMLqWCM/logo.png"}
+              alt="rawrage"
+              className="md:w-40 w-24 h-full"
+            />
           </span>
         </div>
 
