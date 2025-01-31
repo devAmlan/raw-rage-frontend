@@ -8,12 +8,12 @@ const ImageSlider = (props) => {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+        prevIndex === images?.length - 1 ? 0 : prevIndex + 1
       );
     }, 3000);
 
     return () => clearInterval(timer);
-  }, [images.length]);
+  }, [images?.length]);
 
   const goToSlide = (index) => {
     setCurrentIndex(index);
@@ -22,7 +22,7 @@ const ImageSlider = (props) => {
   return (
     <div className="relative w-full">
       <div className="relative h-96 overflow-hidden rounded-lg">
-        {images.map((image, index) => (
+        {images?.map((image, index) => (
           <div
             key={index}
             className={`absolute w-full h-full transition-transform duration-500 ease-in-out ${
@@ -34,7 +34,7 @@ const ImageSlider = (props) => {
           >
             <img
               src={image?.src?.src}
-              alt={image.alt}
+              alt={image?.alt}
               className="w-full h-full object-cover"
             />
           </div>
@@ -42,7 +42,7 @@ const ImageSlider = (props) => {
       </div>
 
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2">
-        {images.map((_, index) => (
+        {images?.map((_, index) => (
           <button
             key={index}
             onClick={() => goToSlide(index)}

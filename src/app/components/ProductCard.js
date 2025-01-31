@@ -34,15 +34,14 @@ export const ProductCard = ({ product }) => {
             ₹{product.price.toFixed(2)}
           </span> */}
           <button
-            // onClick={() => {
-            //   addToCart(product);
-            //   router.push("/cart");
-            // }}
-            // className="flex items-center space-x-1 bg-blue-500 text-white px-3 py-2 rounded-md hover:bg-blue-600 transition-colors"
-            className="w-full text-xs md:text-base flex justify-center items-center space-x-1 bg-gray-300 text-white px-3 py-2 rounded-md transition-colors"
+            onClick={() => {
+              addToCart(product);
+              router.push("/cart");
+            }}
+            className="flex items-center space-x-1 bg-blue-500 text-white px-3 py-2 rounded-md hover:bg-blue-600 transition-colors"
           >
             <ShoppingCart className="h-4 w-4" />
-            <span>Out of Stock</span>
+            <span>Shop Now</span>
           </button>
         </div>
       </div>
