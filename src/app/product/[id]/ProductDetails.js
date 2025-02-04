@@ -44,9 +44,9 @@ export const ProductDetails = () => {
               <h2 className="mt-2 md:text-5xl text-3xl font-bold text-gray-900">
                 {product.name}
               </h2>
-              <p className="mt-4 md:text-3xl text-2xl text-gray-900 font-bold">
+              {/* <p className="mt-4 md:text-3xl text-2xl text-gray-900 font-bold">
                 ₹{product.price.toFixed(2)}
-              </p>
+              </p> */}
               <p className="mt-4 text-gray-600 text-lg leading-relaxed">
                 {product.description}
               </p>
@@ -64,14 +64,14 @@ export const ProductDetails = () => {
               </div> */}
               <div className="mt-8">
                 <button
-                  onClick={() => {
-                    addToCart(product);
-                    router.push("/cart");
-                  }}
-                  className="flex items-center justify-center space-x-2 w-full bg-blue-500 text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors"
+                  // onClick={() => {
+                  //   addToCart(product);
+                  //   router.push("/cart");
+                  // }}
+                  className="flex items-center justify-center space-x-2 w-full bg-gray-200 font-bold text-white px-6 py-3 rounded-md hover:bg-gray-300 transition-colors"
                 >
                   <ShoppingCart className="h-5 w-5" />
-                  <span>Shop Now</span>
+                  <span>Out of Stock</span>
                 </button>
               </div>
             </div>
