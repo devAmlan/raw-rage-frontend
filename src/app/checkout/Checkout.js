@@ -56,8 +56,8 @@ const indianStates = [
 ];
 
 const initialState = {
-  firstName: "",
-  lastName: "",
+  firstname: "Rawrage ",
+  lastname: "Rawrage ",
   email: "",
   phone: "",
   address: "",

@@ -12,7 +12,7 @@ export const useUserData = create(
       },
     }),
     {
-      name: "user-email-storage",
+      name: "Rawrage user-email-storage",
     }
   )
 );

@@ -180,24 +180,24 @@ import pctproductFiveImageOne from "../../../public/assets/pct/product-five/imag
 export const products = [
   {
     id: nanoid(),
-    name: "MK677,RAD140 & Cycle support",
-    slug: "mk677-rad140-cycle-support",
-    price: 5500.0,
+    name: "Rawrage Rawrage MK677",
+    slug: "mk677",
+    price: 1999.0,
     items: [
       {
-        name: "MK-677 (Ibutamoren)",
+        name: "Rawrage MK-677 (Ibutamoren)",
         benefits:
           "MK-677 is a growth hormone secretagogue, meaning it stimulates the release of growth hormone (GH) and increases levels of insulin-like growth factor 1 (IGF-1). It is commonly used for muscle growth, fat loss, and overall body recomposition. It can also improve sleep quality, enhance recovery, and support joint health due to its impact on collagen synthesis.",
         uses: "Increased muscle mass, fat loss, better sleep, and improved skin and joint health.",
       },
       {
-        name: "RAD-140 (Testolone)",
+        name: "Rawrage RAD-140 (Testolone)",
         benefits:
           "RAD-140 is a selective androgen receptor modulator (SARM) that is often used to help increase muscle mass, strength, and fat loss without the negative side effects associated with anabolic steroids. It works by binding to androgen receptors in muscle tissue, promoting muscle growth and fat loss.",
         uses: "Lean muscle gain, strength improvement, and fat loss.",
       },
       {
-        name: "Cycle Support",
+        name: "Rawrage Cycle Support",
         benefits:
           "Cycle support supplements are designed to support overall health and mitigate side effects that can arise during the use of compounds like SARMs or anabolic steroids. These supplements can protect liver health, cardiovascular function, hormonal balance, and kidney function. Common ingredients in cycle support include liver protectants (like TUDCA or NAC), heart and blood pressure support, and estrogen control.",
         uses: "Reducing side effects and protecting health while on performance-enhancing cycles.",
@@ -369,9 +369,9 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "Anawar",
+    name: "Rawrage Rawrage Anawar",
     slug: "ana-war",
-    price: 1999.0,
+    price: 1500.0,
     description: "",
     images: [
       {
@@ -427,9 +427,9 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "LGD-4033",
+    name: "Rawrage LGD-4033",
     slug: "lgd-4033",
-    price: 2200.0,
+    price: 1800.0,
     description: "",
     images: [
       {
@@ -480,9 +480,9 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "BOLD-E250",
+    name: "Rawrage BOLD-E250",
     slug: "bold-e250",
-    price: 2250.0,
+    price: 2000.0,
     description:
       "Slow-releasing micellar casein protein perfect for overnight muscle recovery and growth.",
     images: [
@@ -541,7 +541,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "Natural Cut Stack",
+    name: "Rawrage Natural Cut Stack",
     slug: "natural-cut-stack",
     price: 1899.0,
     description: "",
@@ -615,8 +615,8 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "MK-677",
-    slug: "mk-677",
+    name: "Rawrage MK-677 Premium",
+    slug: "mk-677-premium",
     price: 1500.0,
     description: "",
     images: [
@@ -676,7 +676,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "RAD-140",
+    name: "Rawrage RAD-140",
     slug: "rad-140",
     price: 1299.0,
     description: "",
@@ -724,7 +724,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "Bulking Combo",
+    name: "Rawrage Bulking Combo",
     slug: "bulking-combo",
     price: 5199.0,
     description: "",
@@ -824,9 +824,9 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "DIANA 10",
+    name: "Rawrage DIANA 10",
     slug: "diana-10",
-    price: 1199.0,
+    price: 999.0,
     description: "",
     images: [
       {
@@ -897,9 +897,9 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "MK-2866",
+    name: "Rawrage MK-2866",
     slug: "mk2866",
-    price: 1999.0,
+    price: 1799.0,
     description: "",
     images: [
       {
@@ -950,7 +950,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "YK-11",
+    name: "Rawrage YK-11",
     slug: "yk-11",
     price: 1200.0,
     description: "",
@@ -993,7 +993,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "Ultimate PCT Stack:",
+    name: "Rawrage Ultimate PCT Stack:",
     slug: "ultimate-pct-stack",
     price: 5500.0,
     dosing: [
@@ -1034,7 +1034,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "Advance Cut Stack",
+    name: "Rawrage Advance Cut Stack",
     slug: "advance-cut-stack",
     price: 1899.0,
     description: "",
@@ -1108,11 +1108,11 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "BLADE",
+    name: "Rawrage BLADE",
     slug: "blade",
     category: "Steriods",
     code: "CODE1",
-    price: 2999.0,
+    price: 2500.0,
     images: [
       {
         src: steroidsproductOneImageOne,
@@ -1271,7 +1271,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "BOLDEHYD",
+    name: "Rawrage BOLDEHYD",
     slug: "boldehyd",
     category: "Steriods",
     code: "CODE1",
@@ -1440,11 +1440,11 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "BULK-BOMBA",
+    name: "Rawrage BULK-BOMBA",
     slug: "bluk-bomba",
     category: "Steriods",
     code: "CODE1",
-    price: 4300.0,
+    price: 3500.0,
     images: [
       {
         src: steroidsproductFourImageOne,
@@ -1604,7 +1604,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "CYPIONE-T250",
+    name: "Rawrage CYPIONE-T250",
     slug: "cypione-t250",
     category: "Steriods",
     code: "CODE1",
@@ -1782,10 +1782,9 @@ export const products = [
       </div>
     ),
   },
-
   {
     id: nanoid(),
-    name: "ANABOLRONE",
+    name: "Rawrage ANABOLRONE",
     slug: "anabolrone",
     category: "SARMs",
     code: "CODE2",
@@ -1899,7 +1898,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "ANAMUPORIS",
+    name: "Rawrage ANAMUPORIS",
     slug: "anamuporis",
     category: "SARMs",
     code: "CODE2",
@@ -2041,7 +2040,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "ANDACUDARINE",
+    name: "Rawrage ANDACUDARINE",
     slug: "andacudarine",
     category: "SARMs",
     code: "CODE2",
@@ -2172,11 +2171,11 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "ANDRO-BOL",
+    name: "Rawrage ANDRO-BOL",
     slug: "andro-bol",
     category: "SARMs",
     code: "CODE2",
-    price: 2800.0,
+    price: 2500.0,
     images: [
       {
         src: sarmsproductFourImageOne,
@@ -2256,7 +2255,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "ANDROXY 50",
+    name: "Rawrage ANDROXY 50",
     slug: "androxy-50",
     category: "SARMs",
     code: "CODE2",
@@ -2371,7 +2370,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "ARIMISTANE",
+    name: "Rawrage ARIMISTANE",
     slug: "arimistane",
     category: "SARMs",
     code: "CODE2",
@@ -2464,7 +2463,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "CARDACUDARINE",
+    name: "Rawrage CARDACUDARINE",
     slug: "cardacudarine",
     category: "SARMs",
     code: "CODE2",
@@ -2565,7 +2564,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "CLEN 40",
+    name: "Rawrage CLEN 40",
     slug: "clen-40",
     category: "SARMs",
     code: "CODE2",
@@ -2709,7 +2708,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "DIANABOL",
+    name: "Rawrage DIANABOL",
     slug: "dianabol",
     category: "SARMs",
     code: "CODE2",
@@ -2823,7 +2822,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "MUPOSTARINE",
+    name: "Rawrage MUPOSTARINE",
     slug: "mupostarine",
     category: "SARMs",
     code: "CODE2",
@@ -2932,7 +2931,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "NUTROCUBALIS",
+    name: "Rawrage NUTROCUBALIS",
     slug: "nutrocubalis",
     category: "SARMs",
     code: "CODE2",
@@ -3058,11 +3057,11 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "STANOZOL",
+    name: "Rawrage STANOZOL",
     slug: "stanozol",
     category: "SARMs",
     code: "CODE2",
-    price: 999.0,
+    price: 1200.0,
     images: [
       {
         src: sarmsproductTwelveImageOne,
@@ -3238,7 +3237,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "STENAMUPORIS",
+    name: "Rawrage STENAMUPORIS",
     slug: "stenamuporis",
     category: "SARMs",
     code: "CODE2",
@@ -3441,7 +3440,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "TESTOMUCORIS",
+    name: "Rawrage TESTOMUCORIS",
     slug: "testomucoris",
     category: "SARMs",
     code: "CODE2",
@@ -3564,7 +3563,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "YUCOMUPORIS",
+    name: "Rawrage YUCOMUPORIS",
     slug: "yucomuporis",
     category: "SARMs",
     code: "CODE2",
@@ -3771,7 +3770,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "DECA DURA",
+    name: "Rawrage DECA DURA",
     slug: "deca-dura",
     category: "Steroids",
     code: "CODE1",
@@ -3904,7 +3903,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "DECA-D250",
+    name: "Rawrage DECA-D250",
     slug: "deca-d250",
     category: "Steroids",
     code: "CODE1",
@@ -4027,7 +4026,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "DECAPHYL 100",
+    name: "Rawrage DECAPHYL 100",
     slug: "decaphyl-100",
     category: "Steroids",
     code: "CODE1",
@@ -4198,11 +4197,11 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "DOOM",
+    name: "Rawrage DOOM",
     slug: "doom",
     category: "Steroids",
     code: "CODE1",
-    price: 2999.0,
+    price: 2500.0,
     images: [
       {
         src: steroidsproductNineImageOne,
@@ -4321,7 +4320,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "EQUIPRO IR",
+    name: "Rawrage EQUIPRO IR",
     slug: "equipro-ir",
     category: "Steroids",
     code: "CODE1",
@@ -4438,7 +4437,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "INFERNO",
+    name: "Rawrage INFERNO",
     slug: "inferno",
     category: "Steroids",
     code: "CODE1",
@@ -4585,7 +4584,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "KONG-700",
+    name: "Rawrage KONG-700",
     slug: "kong-700",
     category: "Steroids",
     code: "CODE1",
@@ -4703,7 +4702,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "MASTERON-E100",
+    name: "Rawrage MASTERON-E100",
     slug: "masteron-e100",
     category: "Steroids",
     code: "CODE1",
@@ -4841,7 +4840,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "MEGATON-600",
+    name: "Rawrage MEGATON-600",
     slug: "megaton-100",
     category: "Steroids",
     code: "CODE1",
@@ -4973,11 +4972,11 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "MEGATREN 3D",
+    name: "Rawrage MEGATREN 3D",
     slug: "megatren-3d",
     category: "Steroids",
     code: "CODE1",
-    price: 2999.0,
+    price: 2550.0,
     images: [
       {
         src: steroidsproductFifteenImageOne,
@@ -5091,7 +5090,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "PRIME ENAN",
+    name: "Rawrage PRIME ENAN",
     slug: "prime-enan",
     category: "Steroids",
     code: "CODE1",
@@ -5198,7 +5197,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "PROPIONE-T100",
+    name: "Rawrage PROPIONE-T100",
     slug: "propione-t100",
     category: "Steroids",
     code: "CODE1",
@@ -5345,7 +5344,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "SUPRADROLE (METHYLDROSTANOLONE)",
+    name: "Rawrage SUPRADROLE (METHYLDROSTANOLONE)",
     slug: "supradrole-methyldrostanolone",
     category: "Steroids",
     code: "CODE1",
@@ -5476,7 +5475,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "T3-MAX",
+    name: "Rawrage T3-MAX",
     slug: "t3-max",
     category: "Steroids",
     code: "CODE1",
@@ -5609,7 +5608,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "TREN ACE (TRENBOLONE ACETATE)",
+    name: "Rawrage TREN ACE (TRENBOLONE ACETATE)",
     slug: "tren-ace-trenbolone-acetate",
     category: "Steroids",
     code: "CODE1",
@@ -5731,7 +5730,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "TRENBOL-A100",
+    name: "Rawrage TRENBOL-A100",
     slug: "trenbol-a100",
     category: "Steroids",
     code: "CODE1",
@@ -5850,7 +5849,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "TRENBOL-E200",
+    name: "Rawrage TRENBOL-E200",
     slug: "trenbol-e200",
     category: "Steroids",
     code: "CODE1",
@@ -5945,7 +5944,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "TRENBOL-S100",
+    name: "Rawrage TRENBOL-S100",
     slug: "trenbol-s100",
     category: "Steroids",
     code: "CODE1",
@@ -6076,7 +6075,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "ARIMIX-1000",
+    name: "Rawrage ARIMIX-1000",
     slug: "arimix-1000",
     category: "PCT",
     code: "CODE3",
@@ -6231,7 +6230,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "CLOMIFTY",
+    name: "Rawrage CLOMIFTY",
     slug: "clomifty",
     category: "PCT",
     code: "CODE3",
@@ -6352,7 +6351,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "FERTIRELIN (Triptorelin)",
+    name: "Rawrage FERTIRELIN (Triptorelin)",
     slug: "fertirelin-triptorelin",
     category: "PCT",
     code: "CODE3",
@@ -6478,7 +6477,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "PCT-MATRIX",
+    name: "Rawrage PCT-MATRIX",
     slug: "pct-matrix",
     category: "PCT",
     code: "CODE3",
@@ -6624,7 +6623,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "SUPREME PCT STACK",
+    name: "Rawrage SUPREME PCT STACK",
     slug: "supreme-pct-stack",
     category: "PCT",
     code: "CODE3",
@@ -6746,7 +6745,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "TAMOXIF-20",
+    name: "Rawrage TAMOXIF-20",
     slug: "tamoxif-20",
     category: "PCT",
     code: "CODE3",

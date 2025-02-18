@@ -64,14 +64,14 @@ export const ProductDetails = () => {
               </div> */}
               <div className="mt-8">
                 <button
-                  // onClick={() => {
-                  //   addToCart(product);
-                  //   router.push("/cart");
-                  // }}
-                  className="flex items-center justify-center space-x-2 w-full bg-gray-200 font-bold text-white px-6 py-3 rounded-md hover:bg-gray-300 transition-colors"
+                  onClick={() => {
+                    addToCart(product);
+                    router.push("/cart");
+                  }}
+                  className="flex items-center justify-center space-x-2 w-full bg-blue-500 font-bold text-white px-6 py-3 rounded-md hover:bg-blue-600 transition-colors"
                 >
                   <ShoppingCart className="h-5 w-5" />
-                  <span>Out of Stock</span>
+                  <span>Add To Cart</span>
                 </button>
               </div>
             </div>
