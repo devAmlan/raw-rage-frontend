@@ -182,7 +182,7 @@ export const products = [
     id: nanoid(),
     name: "Rawrage Rawrage MK677",
     slug: "mk677",
-    price: 1999.0,
+    price: 1650.0,
     items: [
       {
         name: "Rawrage MK-677 (Ibutamoren)",
