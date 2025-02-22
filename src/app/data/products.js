@@ -180,7 +180,7 @@ import pctproductFiveImageOne from "../../../public/assets/pct/product-five/imag
 export const products = [
   {
     id: nanoid(),
-    name: "Rawrage Rawrage MK677",
+    name: "Rawrage MK677",
     slug: "mk677",
     price: 1650.0,
     items: [
@@ -369,7 +369,7 @@ export const products = [
   },
   {
     id: nanoid(),
-    name: "Rawrage Rawrage Anawar",
+    name: "Rawrage Anawar",
     slug: "ana-war",
     price: 1500.0,
     description: "",
