@@ -29,7 +29,7 @@ export const ProductCard = ({ product }) => {
         {/* <p className="text-gray-600 text-sm mb-4 line-clamp-2">
           {product.slug}
         </p> */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center flex-col md:flex-col gap-3">
           <span className="text-lg font-bold text-blue-600">
             ₹{product.price.toFixed(2)}
           </span>
@@ -41,7 +41,7 @@ export const ProductCard = ({ product }) => {
             className="flex items-center space-x-1 bg-blue-500 text-white font-bold px-3 py-2 rounded-md hover:bg-blue-600 transition-colors"
           >
             <ShoppingCart className="h-4 w-4" />
-            <span>Add To Cart</span>
+            <span className="md:text-base text-sm">Add To Cart</span>
           </button>
         </div>
       </div>
