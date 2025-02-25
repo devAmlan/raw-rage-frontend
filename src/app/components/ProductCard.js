@@ -30,9 +30,9 @@ export const ProductCard = ({ product }) => {
           {product.slug}
         </p> */}
         <div className="flex items-center justify-between">
-          {/* <span className="text-lg font-bold text-blue-600">
+          <span className="text-lg font-bold text-blue-600">
             ₹{product.price.toFixed(2)}
-          </span> */}
+          </span>
           <button
             onClick={() => {
               addToCart(product);

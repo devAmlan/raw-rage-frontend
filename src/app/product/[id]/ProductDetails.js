@@ -44,9 +44,9 @@ export const ProductDetails = () => {
               <h2 className="mt-2 md:text-5xl text-3xl font-bold text-gray-900">
                 {product.name}
               </h2>
-              {/* <p className="mt-4 md:text-3xl text-2xl text-gray-900 font-bold">
+              <p className="mt-4 md:text-3xl text-2xl text-gray-900 font-bold">
                 ₹{product.price.toFixed(2)}
-              </p> */}
+              </p>
               <p className="mt-4 text-gray-600 text-lg leading-relaxed">
                 {product.description}
               </p>

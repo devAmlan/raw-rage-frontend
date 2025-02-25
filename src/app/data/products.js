@@ -177,6 +177,8 @@ import pctproductSixImageThree from "../../../public/assets/pct/product-six/imag
 
 import pctproductFiveImageOne from "../../../public/assets/pct/product-five/image-1.jpg";
 
+import productSeventeenImageOne from "../../../public/assets/sarms/product-seventeen/image-1.jpeg";
+
 export const products = [
   {
     id: nanoid(),
@@ -361,6 +363,120 @@ export const products = [
     images: [
       {
         src: productThirteenImageOne,
+        alt: "Slide 1",
+      },
+    ],
+    category: "SARMs",
+    code: "CODE2",
+  },
+  {
+    id: nanoid(),
+    name: "RAWRAGE MK677 PREMIUM",
+    slug: "mk677-premium",
+    price: 1200.0,
+    items: [
+      {
+        name: "Rawrage MK-677 (Ibutamoren)",
+        benefits:
+          "MK-677 is a growth hormone secretagogue, meaning it stimulates the release of growth hormone (GH) and increases levels of insulin-like growth factor 1 (IGF-1). It is commonly used for muscle growth, fat loss, and overall body recomposition. It can also improve sleep quality, enhance recovery, and support joint health due to its impact on collagen synthesis.",
+        uses: "Increased muscle mass, fat loss, better sleep, and improved skin and joint health.",
+      },
+      {
+        name: "Rawrage RAD-140 (Testolone)",
+        benefits:
+          "RAD-140 is a selective androgen receptor modulator (SARM) that is often used to help increase muscle mass, strength, and fat loss without the negative side effects associated with anabolic steroids. It works by binding to androgen receptors in muscle tissue, promoting muscle growth and fat loss.",
+        uses: "Lean muscle gain, strength improvement, and fat loss.",
+      },
+      {
+        name: "Rawrage Cycle Support",
+        benefits:
+          "Cycle support supplements are designed to support overall health and mitigate side effects that can arise during the use of compounds like SARMs or anabolic steroids. These supplements can protect liver health, cardiovascular function, hormonal balance, and kidney function. Common ingredients in cycle support include liver protectants (like TUDCA or NAC), heart and blood pressure support, and estrogen control.",
+        uses: "Reducing side effects and protecting health while on performance-enhancing cycles.",
+      },
+    ],
+    completeUserGuide: (
+      <div className="container mx-auto p-6 bg-gray-100 rounded-lg shadow-lg">
+        <h1 className="text-3xl font-semibold text-center text-blue-600 mb-6">
+          MK-677 (Ibutamoren) Benefits
+        </h1>
+
+        <div className="space-y-6">
+          <div className="p-4 bg-white rounded-lg shadow-md">
+            <h2 className="text-xl font-medium text-gray-800">
+              1. Increased Muscle Mass
+            </h2>
+            <p className="text-gray-600 mt-2">
+              MK-677 stimulates the secretion of growth hormone, which can lead
+              to an increase in muscle growth and improved recovery.
+            </p>
+          </div>
+
+          <div className="p-4 bg-white rounded-lg shadow-md">
+            <h2 className="text-xl font-medium text-gray-800">2. Fat Loss</h2>
+            <p className="text-gray-600 mt-2">
+              With its impact on growth hormone and increased lean muscle mass,
+              MK-677 may help promote fat loss over time, though it’s not
+              directly a fat-burning agent.
+            </p>
+          </div>
+
+          <div className="p-4 bg-white rounded-lg shadow-md">
+            <h2 className="text-xl font-medium text-gray-800">
+              3. Improved Bone Density
+            </h2>
+            <p className="text-gray-600 mt-2">
+              It may enhance bone mineral density by increasing growth hormone,
+              which can help with bone health and strength.
+            </p>
+          </div>
+
+          <div className="p-4 bg-white rounded-lg shadow-md">
+            <h2 className="text-xl font-medium text-gray-800">
+              4. Better Sleep Quality
+            </h2>
+            <p className="text-gray-600 mt-2">
+              MK-677 is known to improve sleep quality, as growth hormone is
+              closely linked to deep sleep stages.
+            </p>
+          </div>
+
+          <div className="p-4 bg-white rounded-lg shadow-md">
+            <h2 className="text-xl font-medium text-gray-800">
+              5. Improved Skin and Hair Health
+            </h2>
+            <p className="text-gray-600 mt-2">
+              The increased growth hormone may also promote healthier skin and
+              hair, as it plays a role in cellular regeneration.
+            </p>
+          </div>
+
+          <div className="p-4 bg-white rounded-lg shadow-md">
+            <h2 className="text-xl font-medium text-gray-800">
+              6. Cognitive Function
+            </h2>
+            <p className="text-gray-600 mt-2">
+              There are some indications that MK-677 could help improve
+              cognitive function due to its effect on growth hormone and IGF-1
+              (Insulin-like Growth Factor 1) levels.
+            </p>
+          </div>
+
+          <div className="mt-6 p-4 bg-yellow-50 rounded-lg">
+            <p className="text-gray-700 font-semibold">
+              Note: While these benefits are promising, it's important to note
+              that MK-677 is not FDA-approved for human use, and more research
+              is needed to fully understand its long-term effects and potential
+              risks. Always consult a healthcare provider before using any
+              supplement or compound like MK-677.
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+
+    images: [
+      {
+        src: productSeventeenImageOne,
         alt: "Slide 1",
       },
     ],
